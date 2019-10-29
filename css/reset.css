@@ -1,0 +1,39 @@
+html,body,ul,ol,h1,h2,h3,h4,h5,p,div,input,a,section{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+input,button{
+    outline: none;
+    border: 0;
+}
+a,a:hover,a:visited,a:focus{
+    color: #333;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.icon{
+    display: block;
+}
+.rborder{
+    border-right: 1px solid #ccc;
+
+}
+.bborder{
+    border-bottom: 1px solid #ccc;
+}
